@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0b9fa13-e5b6-4454-a207-9413ebc0cc78">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="83d98bad-d7e6-4f70-8afa-7fd3e64c314a"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7ddaa877-b980-44fd-aa2b-5aaaf53db1dc"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6bd12b5b-9ef2-499f-9741-662681aee12a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="406c4a89-0103-4867-98b8-96f3264e9dbf"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b9a1cd77-506b-4e26-af5b-4269af814f77"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="03c98aef-26a0-4707-8bbb-d5fc8b18f272"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="3b31350f-bfa4-46ed-b9c0-d3eee432ce4e"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="e5083c41-0fd5-4244-a062-a3cd48df6340">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.УчетМатериалов</subsystems>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <subsystems>Subsystem.ОказаниеУслуг</subsystems>
+  <subsystems>Subsystem.РасчетЗарплаты</subsystems>
+  <subsystems>Subsystem.Предприятие</subsystems>
+  <commonPictures>CommonPicture.Бухалтерия</commonPictures>
+  <commonPictures>CommonPicture.УчетМатериалов</commonPictures>
+  <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
+  <commonPictures>CommonPicture.РасчетЗарплаты</commonPictures>
+  <commonPictures>CommonPicture.Предпиятие</commonPictures>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+</mdclass:Configuration>

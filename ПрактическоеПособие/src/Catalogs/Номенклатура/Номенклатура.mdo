@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6af286a0-abb2-4cb8-b661-3a2abd71a422">
+  <producedTypes>
+    <objectType typeId="3595cd76-8d5b-4ee0-8f6d-cc2febb8eccb" valueTypeId="3c2e4c51-2f99-4735-b27e-15027e61e689"/>
+    <refType typeId="64ffaacb-4ab6-4381-aaf2-2a6d5c593c40" valueTypeId="a3f5bb49-e595-4de2-a6ba-6578e42a78bf"/>
+    <selectionType typeId="6ac6982f-276d-43ef-b7c7-6d148d36f6a0" valueTypeId="111e3e9f-3283-4e2f-8663-84e4c4419aef"/>
+    <listType typeId="d7b3000e-830b-46c1-bdb1-4b4a454dc1ff" valueTypeId="2af7cfc0-23fe-408b-a2c2-903bf43ef103"/>
+    <managerType typeId="9324ce7d-0bb7-42d0-a143-5e8650e97e48" valueTypeId="996b15aa-9535-4dcd-876d-8e9d5219308f"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номенклатуры</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
