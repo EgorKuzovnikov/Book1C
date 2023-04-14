@@ -44,8 +44,10 @@
   <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
   <commonPictures>CommonPicture.РасчетЗарплаты</commonPictures>
   <commonPictures>CommonPicture.Предпиятие</commonPictures>
+  <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
 </mdclass:Configuration>
